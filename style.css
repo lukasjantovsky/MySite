@@ -1,60 +1,58 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
 body {
+    margin: 0;
     padding: 0;
-    margin: 0;
+    font-family: 'Onest', sans-serif;
+    line-height: 1.3;
 }
 
-.header_page {
+*, * ::before, *::after {
+    box-sizing: inherit;
+}
+
+.top-container {
     background-color: rgb(53, 224, 237);
-    margin: 0;
-    padding-bottom: 200px;
 }
 
-.title-text {
-    padding-top: 100px;
+.top-img {
+    text-align: right;
+    margin-right: 15rem;
+
 
 }
+
+.Welcome {
+    text-align: center;
+
+}
+
+.middle-img {
+    text-align: right;
+    margin-right: 20rem;
+}
+
 
 h1 {
-    display: flex;
-    justify-content: center;
-    font-family: 'Onest', sans-serif;
-    font-size: 5rem;
-    margin: 0;
-
+    margin-top: 0;
+    font-size: 4rem;
+    margin-bottom: 0.3rem;
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
-    font-family: 'Onest', sans-serif;
-    font-size: 2rem;
+ padding: 0;
 }
 
-.profile-img {
-    margin-left: 500px;
+
+.profile-foto { 
     border-radius: 50%;
-    border: none;
-}
-
-.top-code {
-    position: absolute;
-    right: 300px;
-    top: 25px;
-}
-
-.bottom-code {
-    position: absolute;
-    left: 200px;
-    top: 700px;
-
+    margin-top: 3rem;
     
 }
 
-.desktop-icon {
-    position: absolute;
-    right: 200px;
-    top: 550px;
-
+.bottom-img {
+    
 }
-
-
